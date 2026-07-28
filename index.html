@@ -40,7 +40,8 @@ header.top .wrap{display:flex;justify-content:space-between;align-items:baseline
 header.top .name{font-family:'Playfair Display',serif;font-size:17px;color:#fff}
 header.top .tag{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--orange);font-weight:700}
 nav.toc{background:var(--deep2);border-bottom:1px solid #1a365a;position:sticky;top:0;z-index:50;box-shadow:0 2px 4px rgba(0,0,0,.15)}
-nav.toc .wrap{display:flex;flex-wrap:nowrap;align-items:center;padding:0 24px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+nav.toc .wrap{display:flex;flex-wrap:nowrap;align-items:center;padding:0 24px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+nav.toc .wrap::-webkit-scrollbar{display:none}
 nav.toc a{color:#cbd5e1;text-decoration:none;font-size:12px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;padding:14px 14px;border-bottom:2px solid transparent;white-space:nowrap;transition:color .15s,border-color .15s}
 nav.toc a:hover{color:var(--orange);border-bottom-color:var(--orange)}
 nav.toc a.first{padding-left:0}
